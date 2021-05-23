@@ -1,0 +1,3 @@
+function brewAbbreviations -d "My package"
+  # Package entry-point
+end
