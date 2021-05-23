@@ -7,7 +7,7 @@ function __brewAbbreviations.init
   end
 
   set __brewfile_path ~/.config/Brewfile
-  mkdir -p "$__brewfile_path"
+  mkdir -p "(dirname $__brewfile_path)"
 
   set -q __brewAbbreviations_plugin_initialized; and exit 0
 
